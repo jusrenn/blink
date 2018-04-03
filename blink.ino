@@ -5,7 +5,6 @@ void setup() {
 }
 
 void loop() {
-  if(millis() % 1000 == 0) {
+  if(millis() % 1000 == 0)
     digitalWrite(_LED, !digitalRead(_LED));
-  }
 }
